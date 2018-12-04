@@ -7,48 +7,45 @@ If you have any questions regarding this changelog, feel free to reach out to us
 
 ## Unreleased
 NEW FEATURES:
- - Embedded Instruqt
+- Embedded Instruqt
+- Invites: invite users to tracks
  
-## november:
+## November:
 NEW FEATURES:
- - Invites: invite users to tracks
- - Statistics: track level statistics
+- Statistics: track level statistics
 
 IMPROVEMENTS:
- - Merge play.instruqt.com with instruqt.com
+- Merge play.instruqt.com with instruqt.com
  
 ## October
-IMPROVEMENTS
-- Security fixes, based on security audit
-
 NEW FEATURES:
-- Web interface for creating tracks, topics and challenges
 - Ability to restart tracks
 - Arcade version of Instruqt (https://instruqt.com/arcade)
 - Added organizations on Instruqt
 
+IMPROVEMENTS
+- Security fixes, based on security audit
+
 BUGFIXES:
- - Fixes in cleanup
- - Limit number of tracks started to 1
+- Fixes in cleanup
+- Limit number of tracks started to 1
 
 ## September 17, 2018
 NEW FEATURES:
- - Quizes: instead of a challenge, a track can contain quiz questions
+- Quizes: instead of a challenge, a track can contain quiz questions
  
 CLI IMPROVEMENTS:
- - Rework: use `push`/`pull` instead of `build`
- - Added track logs functionality (`instruqt track logs`)
- - Added delete track functionality ('instruqt track delete`)
+- Rework: use `push`/`pull` instead of `build`
+- Added track logs functionality (`instruqt track logs`)
+- Added delete track functionality (`instruqt track delete`)
 
 ## August 18, 2018
 NEW FEATURES:
-  - Manage tracks, challenges and track config in the web interface
-  - Publish or unpublish a track in the web interface
-  - Manage notes, tabs in challenges in the web interface
-  - Automatically provision Google Cloud Projects for track players.
-  - Add quizzes to tracks.
-  - New notifications system to serve notifications throughout the application
-  - From now on, the Instruqt SDK CLI tool will automatically check for updates. Be sure to grab the lastest copy from [https://github.com/instruqt/cli/releases/latest](https://github.com/instruqt/cli/releases/latest), after that you will be able to enjoy automatic updates.
-  - Interface to manage tracks in topic
-  - Several new website pages: Pricing, Instruqt for teams, Instruqt for vendors, About us, Instruqt Arcade
-  - Improved website user flows
+- Manage tracks, challenges and track config in the web interface
+- Publish or unpublish a track in the web interface
+- Manage notes, tabs in challenges in the web interface
+- Automatically provision Google Cloud Projects for track players.
+- Add quizzes to tracks.
+- New notifications system to serve notifications throughout the application
+- From now on, the Instruqt SDK CLI tool will automatically check for updates. Be sure to grab the lastest copy from [https://github.com/instruqt/cli/releases/latest](https://github.com/instruqt/cli/releases/latest), after that you will be able to enjoy automatic updates.
+- Interface to manage tracks in topic
