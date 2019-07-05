@@ -1,6 +1,6 @@
-# Instruqt Changelog and roadmap
+# Instruqt Changelog
 
-This repository contains the public changelog and roadmap for the Instruqt platform.
+This repository contains the public changelog for the Instruqt platform.
 
 # Reporting issues and feature requests
 

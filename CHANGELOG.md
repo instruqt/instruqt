@@ -8,10 +8,75 @@ If you have any questions regarding this changelog, feel free to reach out to us
 ## Unreleased
 NEW FEATURES:
 - Embedded Instruqt
-- Invites: invite users to tracks
- 
+
+## July
+NEW FEATURES:
+- Add option to override ENTRYPOINT/CMD of a container
+
+## June
+NEW FEATURES:
+- Track creation wizard
+- Add users to organization by e-mail address
+- Allow invites to be used anonymously (configurable)
+
+IMPROVEMENTS:
+- Show more user details in invite overview
+
+BUG FIXES:
+- Fixed editor reload bug
+
+## May
+NEW FEATURES:
+- AWS Account support. Ability to provision temporary AWS accounts and provide users with temporary credentials to these accounts.
+
+IMPROVEMENTS:
+- Removed editor mode toggle
+- Allow HTML in notes and assignments
+- Detect use of unsupported Docker images (old image manifest version)
+
+## April
+IMPROVEMENTS:
+- Improved user profiles
+- Change Web SDK from modal forms to to inline editing
+- Inject arcade difficulty level into check scripts
+- Allow ordering of arcade tracks
+
+BUG FIXES:
+- Fix problem with spaces in ENTRYPOINT/CMD for containers
+
+## March
+NEW FEATURES:
+- Arcade management for organizations
+
+IMPROVEMENTS:
+- Add update command to CLI
+- Allow tracks in topic to be sorted
+
+## February
+NEW FEATURES:
+- Custom branding for organizations
+
+IMPROVEMENTS:
+- Revamp arcade version (including online option)
+- Add verification for e-mail based accounts
+- Various responsiveness fixes
+
+## January
+NEW FEATURES:
+- Editor Tab
+- Allow anonymous plays
+
+IMPROVEMENTS:
+- Make usernames optional
+- Document API at docs.instruqt.com
+
+## December
+NEW FEATURES:
+- API keys for organizations
+
 ## November:
 NEW FEATURES:
+- Invites: invite non-organization users to private tracks
 - Statistics: track level statistics
 
 IMPROVEMENTS:
