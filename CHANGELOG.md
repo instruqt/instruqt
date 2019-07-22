@@ -13,6 +13,12 @@ NEW FEATURES:
 NEW FEATURES:
 - Add option to override ENTRYPOINT/CMD of a container
 
+IMPROVEMENTS:
+- Inject container/vm env vars into setup, check and cleanup scripts
+
+DEPRECATIONS:
+- Removed vm pooling and preempitble settings. Pooling will return later, but then for entire environments, rather than just vms.
+
 ## June
 NEW FEATURES:
 - Track creation wizard
