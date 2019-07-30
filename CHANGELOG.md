@@ -9,17 +9,22 @@ If you have any questions regarding this changelog, feel free to reach out to us
 NEW FEATURES:
 - Embedded Instruqt
 
-## July
+## July 2019
 NEW FEATURES:
 - Add option to override ENTRYPOINT/CMD of a container
+- Add click-to-copy on code blocks in assignments
+- Add option to put track into maintenance mode, so it is still visible, but temporarily not playable.
 
 IMPROVEMENTS:
 - Inject container/vm env vars into setup, check and cleanup scripts
 
+INTERNALS:
+- Complete upgrade to Terraform 0.12
+
 DEPRECATIONS:
 - Removed vm pooling and preempitble settings. Pooling will return later, but then for entire environments, rather than just vms.
 
-## June
+## June 2019
 NEW FEATURES:
 - Track creation wizard
 - Add users to organization by e-mail address
@@ -31,7 +36,7 @@ IMPROVEMENTS:
 BUG FIXES:
 - Fixed editor reload bug
 
-## May
+## May 2019
 NEW FEATURES:
 - AWS Account support. Ability to provision temporary AWS accounts and provide users with temporary credentials to these accounts.
 
@@ -40,7 +45,7 @@ IMPROVEMENTS:
 - Allow HTML in notes and assignments
 - Detect use of unsupported Docker images (old image manifest version)
 
-## April
+## April 2019
 IMPROVEMENTS:
 - Improved user profiles
 - Change Web SDK from modal forms to to inline editing
@@ -50,7 +55,7 @@ IMPROVEMENTS:
 BUG FIXES:
 - Fix problem with spaces in ENTRYPOINT/CMD for containers
 
-## March
+## March 2019
 NEW FEATURES:
 - Arcade management for organizations
 
@@ -58,7 +63,7 @@ IMPROVEMENTS:
 - Add update command to CLI
 - Allow tracks in topic to be sorted
 
-## February
+## February 2019
 NEW FEATURES:
 - Custom branding for organizations
 
@@ -67,7 +72,7 @@ IMPROVEMENTS:
 - Add verification for e-mail based accounts
 - Various responsiveness fixes
 
-## January
+## January 2019
 NEW FEATURES:
 - Editor Tab
 - Allow anonymous plays
@@ -76,19 +81,19 @@ IMPROVEMENTS:
 - Make usernames optional
 - Document API at docs.instruqt.com
 
-## December
+## December 2018
 NEW FEATURES:
 - API keys for organizations
 
-## November:
+## November 2018
 NEW FEATURES:
 - Invites: invite non-organization users to private tracks
 - Statistics: track level statistics
 
 IMPROVEMENTS:
 - Merge play.instruqt.com with instruqt.com
- 
-## October
+
+## October 2018
 NEW FEATURES:
 - Ability to restart tracks
 - Arcade version of Instruqt (https://instruqt.com/arcade)
@@ -101,16 +106,16 @@ BUGFIXES:
 - Fixes in cleanup
 - Limit number of tracks started to 1
 
-## September 17, 2018
+## September 2018
 NEW FEATURES:
 - Quizes: instead of a challenge, a track can contain quiz questions
- 
+
 CLI IMPROVEMENTS:
 - Rework: use `push`/`pull` instead of `build`
 - Added track logs functionality (`instruqt track logs`)
 - Added delete track functionality (`instruqt track delete`)
 
-## August 18, 2018
+## August 2018
 NEW FEATURES:
 - Manage tracks, challenges and track config in the web interface
 - Publish or unpublish a track in the web interface
