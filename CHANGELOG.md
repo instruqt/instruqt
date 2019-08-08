@@ -9,6 +9,10 @@ If you have any questions regarding this changelog, feel free to reach out to us
 NEW FEATURES:
 - Embedded Instruqt
 
+## August 2019
+NEW FEATURES:
+- Show track progress (attempts and number of challenges completed) in invite claims
+
 ## July 2019
 NEW FEATURES:
 - Add option to override ENTRYPOINT/CMD of a container
