@@ -5,13 +5,11 @@ If you have any feature requests or bugs to report you can do so [here](https://
 
 If you have any questions regarding this changelog, feel free to reach out to us on [Slack](https://join.slack.com/t/instruqt/shared_invite/enQtMzcwNTY1OTQ5NzE2LTQ5YTgxODgzNTk4NzY0OWU0OTczZjlhNThlMGJjYmFlNTNiNTMxZTVhNjE4MTczYzkxNDNkNTc1NzYwN2RlY2M) or through [our website](https://instruqt.com).
 
-## Unreleased
-NEW FEATURES:
-- Embedded Instruqt
-
 ## August 2019
 NEW FEATURES:
+- Embedded Instruqt
 - Show track progress (attempts and number of challenges completed) in invite claims
+- Limit accepting invites to certain email addresses only
 
 ## July 2019
 NEW FEATURES:
