@@ -10,6 +10,7 @@ NEW FEATURES:
 - Embedded Instruqt
 - Show track progress (attempts and number of challenges completed) in invite claims
 - Limit accepting invites to certain email addresses only
+- An estimate of how long it takes to spin up the environment is now shown when creating an environment
 
 ## July 2019
 NEW FEATURES:
