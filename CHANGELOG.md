@@ -5,6 +5,33 @@ If you have any feature requests or bugs to report you can do so [here](https://
 
 If you have any questions regarding this changelog, feel free to reach out to us on [Slack](https://join.slack.com/t/instruqt/shared_invite/enQtMzcwNTY1OTQ5NzE2LTQ5YTgxODgzNTk4NzY0OWU0OTczZjlhNThlMGJjYmFlNTNiNTMxZTVhNjE4MTczYzkxNDNkNTc1NzYwN2RlY2M) or through [our website](https://instruqt.com).
 
+## October 2019
+BUG FIXES:
+- Instruqt file editor
+  - A bug where there was a chance the file was not saved has been fixed
+  
+IMPROVEMENTS:
+- Instruqt file editor
+  - Dramatically increased the performance of the editor
+  - The file tree is now collapsed by default
+  - You can now create new files and folders by clicking the + icons in the file tree
+  - You can now select the language of the file in the bottom right corner to get syntax highlighting. The editor detects most file extensions
+  - You can now change the width of the left panel (file tree)
+  - When you click on another tab (for example a terminal tab) and create a file on the filesystem, the editor will now show the new files when you go back to the editor. (note that it will not change the contents of files that you already had opened)
+
+## September 2019
+NEW FEATURES:
+- Added ability to skip to a challenge as a track developer
+- Added challenge solve script (for use with skipping challenges)
+- The track creation wizard will now save progress in the browser
+
+BUG FIXES:
+- Fixed user profile now working for some users
+- Fixed a bug in the arcade where the input loses focus when entering your name
+
+IMPROVEMENTS:
+- Added validation for challenge scripts
+
 ## August 2019
 NEW FEATURES:
 - Embedded Instruqt
