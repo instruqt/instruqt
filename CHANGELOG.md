@@ -5,12 +5,50 @@ If you have any feature requests or bugs to report you can do so [here](https://
 
 If you have any questions regarding this changelog, feel free to reach out to us on [Slack](https://join.slack.com/t/instruqt/shared_invite/enQtMzcwNTY1OTQ5NzE2LTQ5YTgxODgzNTk4NzY0OWU0OTczZjlhNThlMGJjYmFlNTNiNTMxZTVhNjE4MTczYzkxNDNkNTc1NzYwN2RlY2M) or through [our website](https://instruqt.com).
 
+## January 2020
+NEW FEATURES:
+- Added some options to embedding tracks (auto start on load, hiding the assignment on start, hiding the check button). View your track's embed page to see available options (More to come, let us know if you have any suggestions). 
+
+IMPROVEMENTS:
+- Force challenge ID's to be empty when pushing a new track from CLI. This prevents overwriting existing challenges.
+- The `instruqt track test` command now waits for the challenge cleanup script to be finished before going to the next challenge.
+- The track creation wizard now automatically generates the track slug.
+
+BUG FIXES:
+- Fixed syntax highlighting in editor when switching files.
+- Fixed incorrect expire dates in track invite overview. 
+
+## December 2019
+IMPROVEMENTS:
+- Added SCP Policy field to AWS config
+- Removed deploy track from frontend & CLI because deploying tracks is not necessary anymore.
+
+BUG FIXES:
+- If the user token expires on the frontend, retry refreshing the token 
+
+## November 2019
+NEW FEATURES:
+- Users will see a median waiting time when the track environment is spinning up.
+- Added track lifecycle scripts (cleanup only for now). With this lifecycle script you can execute code before the entire track environment is cleaned up.
+- Added `instruqt track test` command to CLI. Read more about testing track on our [documentation page](https://docs.instruqt.com/#testing-amp-debugging)
+
+IMPROVEMENTS:
+- Improved polling of track status when the user is waiting for the environment spinning up.
+- Sort tracks by title for invites
+- The first challenge setup script will automatically start after the environment was created. Previously this was initiated by the frontend.
+- You can now use `--slug <organzation-slug>/<track-slug>` shorthand with our CLI tool.
+
+BUG FIXES:
+- Fixed bug for removing tracks from topic
+
 ## October 2019
 BUG FIXES:
 - Instruqt file editor
   - A bug where there was a chance the file was not saved has been fixed
   
 IMPROVEMENTS:
+- Environments spinup performance increased
+  - We've made some changes in the way we spin up environments for users which enables more concurrent spinups and better performance
 - Instruqt file editor
   - Dramatically increased the performance of the editor
   - The file tree is now collapsed by default
