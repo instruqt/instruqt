@@ -5,9 +5,48 @@ If you have any feature requests or bugs to report you can do so [here](https://
 
 If you have any questions regarding this changelog, feel free to reach out to us on [Slack](https://join.slack.com/t/instruqt/shared_invite/enQtMzcwNTY1OTQ5NzE2LTQ5YTgxODgzNTk4NzY0OWU0OTczZjlhNThlMGJjYmFlNTNiNTMxZTVhNjE4MTczYzkxNDNkNTc1NzYwN2RlY2M) or through [our website](https://instruqt.com).
 
+## May 2020
+NEW FEATURES:
+- Enable pooling for tracks. This enables having hot standby environments, so tracks start faster for your users. The pooled phase of an environment is billed per minute. Contact us if you want to enable pooling for your account.
+
+IMPROVEMENTS:
+- `instruqt track test` now skips quiz type challenges
+
+BUG FIXES:
+- Fixed bug where any organization member could force push a track, even if they are not a developer
+- Fixed bug when saving files after changing tabs in the editor
+
+## April 2020
+NEW FEATURES:
+- Organization level statistics of track plays
+- Azure support (in private beta)
+- Allow organization members to skip challenges (feature flagged)
+
+BUG FIXES:
+- Small css fixes for notes (overlapping images, indentation of code blocks)
+
+INTERNALS:
+- Add dynamic authentication to participant proxy
+- Migrate to pub/sub for environment creation and cleanup
+
+## March 2020
+NEW FEATURES:
+- Alibaba Cloud support (in private beta)
+
+IMPROVEMENTS:
+- Auto accept invite option
+
+BUG FIXES:
+- Fixed saving file in editor
+
+## February 2020
+IMPROVEMENTS:
+- Make track/challenge teaser optional
+- Filter track developers from statistics
+
 ## January 2020
 NEW FEATURES:
-- Added some options to embedding tracks (auto start on load, hiding the assignment on start, hiding the check button). View your track's embed page to see available options (More to come, let us know if you have any suggestions). 
+- Added some options to embedding tracks (auto start on load, hiding the assignment on start, hiding the check button). View your track's embed page to see available options (More to come, let us know if you have any suggestions).
 
 IMPROVEMENTS:
 - Force challenge ID's to be empty when pushing a new track from CLI. This prevents overwriting existing challenges.
@@ -16,7 +55,7 @@ IMPROVEMENTS:
 
 BUG FIXES:
 - Fixed syntax highlighting in editor when switching files.
-- Fixed incorrect expire dates in track invite overview. 
+- Fixed incorrect expire dates in track invite overview.
 
 ## December 2019
 IMPROVEMENTS:
@@ -24,7 +63,7 @@ IMPROVEMENTS:
 - Removed deploy track from frontend & CLI because deploying tracks is not necessary anymore.
 
 BUG FIXES:
-- If the user token expires on the frontend, retry refreshing the token 
+- If the user token expires on the frontend, retry refreshing the token
 
 ## November 2019
 NEW FEATURES:
@@ -45,7 +84,7 @@ BUG FIXES:
 BUG FIXES:
 - Instruqt file editor
   - A bug where there was a chance the file was not saved has been fixed
-  
+
 IMPROVEMENTS:
 - Environments spinup performance increased
   - We've made some changes in the way we spin up environments for users which enables more concurrent spinups and better performance
