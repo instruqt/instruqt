@@ -15,6 +15,7 @@ IMPROVEMENTS:
 BUG FIXES:
 - Fixed bug where any organization member could force push a track, even if they are not a developer
 - Fixed bug when saving files after changing tabs in the editor
+- Fixed bug when renaming a container/vm wouldn't also rename the corresponding scripts and tabs
 
 ## April 2020
 NEW FEATURES:
