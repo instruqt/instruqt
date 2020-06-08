@@ -5,6 +5,14 @@ If you have any feature requests or bugs to report you can do so [here](https://
 
 If you have any questions regarding this changelog, feel free to reach out to us on [Slack](https://join.slack.com/t/instruqt/shared_invite/enQtMzcwNTY1OTQ5NzE2LTQ5YTgxODgzNTk4NzY0OWU0OTczZjlhNThlMGJjYmFlNTNiNTMxZTVhNjE4MTczYzkxNDNkNTc1NzYwN2RlY2M) or through [our website](https://instruqt.com).
 
+## June 2020
+IMPROVEMENTS:
+- Added cooldown period for AWS accounts, so they will not be reused within the hour
+
+BUG FIXES:
+- Fixed bug where tracks with GCP projects would fail to start intermittently with error "Provider produced inconsistent result after apply"
+
+
 ## May 2020
 NEW FEATURES:
 - Enable pooling for tracks. This enables having hot standby environments, so tracks start faster for your users. The pooled phase of an environment is billed per minute. Contact us if you want to enable pooling for your account.
