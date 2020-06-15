@@ -6,8 +6,12 @@ If you have any feature requests or bugs to report you can do so [here](https://
 If you have any questions regarding this changelog, feel free to reach out to us on [Slack](https://join.slack.com/t/instruqt/shared_invite/enQtMzcwNTY1OTQ5NzE2LTQ5YTgxODgzNTk4NzY0OWU0OTczZjlhNThlMGJjYmFlNTNiNTMxZTVhNjE4MTczYzkxNDNkNTc1NzYwN2RlY2M) or through [our website](https://instruqt.com).
 
 ## June 2020
+NEW FEATURES:
+- Added `show_timer` option to track.yml and track settings. When `true`, a timer will be shown on the assignment screen stating how long the participant has left untill the environment will expire.
+
 IMPROVEMENTS:
 - Added cooldown period for AWS accounts, so they will not be reused within the hour
+- When the sandboxed environment expires, users will see a message that the environment has expired
 
 BUG FIXES:
 - Fixed bug where tracks with GCP projects would fail to start intermittently with error "Provider produced inconsistent result after apply"
